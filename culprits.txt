@@ -1,0 +1,8 @@
+27.8ms	/Users/leeco/Desktop/Leme/Leme/AppDelegate.swift:18:10	@objc func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]?) -> Bool
+26.6ms	/Users/leeco/Desktop/Leme/Leme/AppDelegate.swift:18:10	@objc func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]?) -> Bool
+5.1ms	<invalid loc>	get {}
+3.4ms	<invalid loc>	get {}
+3.0ms	<invalid loc>	get {}
+2.9ms	<invalid loc>	get {}
+2.6ms	<invalid loc>	get {}
+2.5ms	<invalid loc>	get {}

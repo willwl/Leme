@@ -12,9 +12,24 @@ class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        DispatchQueue.global().async {
+//            DispatchQueue.main.async {
+//                }
+//            }
+//        }
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let root = (UIApplication.shared.delegate as! AppDelegate).window?.rootViewController
+
+//        LemallHelper
+//            .lemallSDK()
+//            .openLemallPage(root, pageFlag: "PAGE_FLAG_RECOMMENDED", leTradeInfo: nil) { (result) in
+//                print("result \(result)")
+//        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

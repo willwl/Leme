@@ -12,7 +12,8 @@ class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let t = "Lauched in \(CFAbsoluteTimeGetCurrent() - MainStartTime) seconds"
+//        CWStatusBarNotification().display(withMessage: t, forDuration: 1)
     }
 
     override func didReceiveMemoryWarning() {

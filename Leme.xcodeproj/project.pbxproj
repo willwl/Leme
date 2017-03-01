@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A6D623D1E6540E700D94A33 /* LemeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6D623C1E6540E700D94A33 /* LemeApi.swift */; };
 		7A8FCAD11E5BDB9A003942B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FCAD01E5BDB9A003942B5 /* AppDelegate.swift */; };
 		7A8FCAD31E5BDB9A003942B5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FCAD21E5BDB9A003942B5 /* FirstViewController.swift */; };
 		7A8FCAD51E5BDB9A003942B5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FCAD41E5BDB9A003942B5 /* SecondViewController.swift */; };
@@ -14,6 +15,23 @@
 		7A8FCADA1E5BDB9A003942B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8FCAD91E5BDB9A003942B5 /* Assets.xcassets */; };
 		7A8FCADD1E5BDB9A003942B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8FCADB1E5BDB9A003942B5 /* LaunchScreen.storyboard */; };
 		7A8FCAE81E5BDB9A003942B5 /* LemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FCAE71E5BDB9A003942B5 /* LemeTests.swift */; };
+		7AAB462B1E66A54400594257 /* SomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB462A1E66A54400594257 /* SomeData.swift */; };
+		7AD467511E66BA810095EFCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467501E66BA810095EFCE /* UIKit.framework */; };
+		7ADD8D9B1E5C5900004FBC28 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD8D9A1E5C5900004FBC28 /* main.swift */; };
+		7AEAF98D1E5EE71100712D96 /* LemallHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEAF98C1E5EE71100712D96 /* LemallHelper.m */; };
+		7AEF534E1E5EC8AF0040D9E5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF534D1E5EC8AF0040D9E5 /* CFNetwork.framework */; };
+		7AEF53501E5EC8BA0040D9E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF534F1E5EC8BA0040D9E5 /* SystemConfiguration.framework */; };
+		7AEF53521E5EC8C30040D9E5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF53511E5EC8C30040D9E5 /* Security.framework */; };
+		7AEF53541E5EC8D00040D9E5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF53531E5EC8D00040D9E5 /* libc++.tbd */; };
+		7AEF53561E5EC8E00040D9E5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF53551E5EC8E00040D9E5 /* libsqlite3.0.tbd */; };
+		7AEF53581E5EC8EC0040D9E5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF53571E5EC8EC0040D9E5 /* CoreTelephony.framework */; };
+		7AEF535A1E5EC8F30040D9E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF53591E5EC8F30040D9E5 /* CoreGraphics.framework */; };
+		7AEF535C1E5EC8FC0040D9E5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF535B1E5EC8FC0040D9E5 /* CoreMotion.framework */; };
+		7AEF535E1E5EC9040040D9E5 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF535D1E5EC9040040D9E5 /* JavaScriptCore.framework */; };
+		7AEF53611E5EDC960040D9E5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF535F1E5ECBAB0040D9E5 /* libz.tbd */; };
+		8788CE77A8C7F7D5D7740A90 /* Pods_Leme_LemeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110011FA5635C7D66DFA70FB /* Pods_Leme_LemeTests.framework */; };
+		A67C2F47C8A528971A79F8BD /* Pods_Leme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C217D23C4CBB6ACA3A1D2BD7 /* Pods_Leme.framework */; };
+		F6815AB13BDD14A8C880EAE9 /* Pods_LemeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E06D6A12DA3D82D465272D /* Pods_LemeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +45,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		110011FA5635C7D66DFA70FB /* Pods_Leme_LemeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leme_LemeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37267285814A4BF4CFD221BB /* Pods-Leme-LemeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leme-LemeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leme-LemeTests/Pods-Leme-LemeTests.release.xcconfig"; sourceTree = "<group>"; };
+		57D4269F9C8476317928B92C /* Pods-Leme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leme/Pods-Leme.debug.xcconfig"; sourceTree = "<group>"; };
+		668B36140DE49EC31E7926E8 /* Pods-LemeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LemeTests/Pods-LemeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A6D623C1E6540E700D94A33 /* LemeApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemeApi.swift; sourceTree = "<group>"; };
 		7A8FCACD1E5BDB9A003942B5 /* Leme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8FCAD01E5BDB9A003942B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A8FCAD21E5BDB9A003942B5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		7A8FCAD41E5BDB9A003942B5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7A8FCAD71E5BDB9A003942B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A8FCAD91E5BDB9A003942B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A8FCAD91E5BDB9A003942B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Leme/Assets.xcassets; sourceTree = "<group>"; };
 		7A8FCADC1E5BDB9A003942B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A8FCADE1E5BDB9A003942B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8FCADE1E5BDB9A003942B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Leme/Info.plist; sourceTree = "<group>"; };
 		7A8FCAE31E5BDB9A003942B5 /* LemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8FCAE71E5BDB9A003942B5 /* LemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemeTests.swift; sourceTree = "<group>"; };
 		7A8FCAE91E5BDB9A003942B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AAB462A1E66A54400594257 /* SomeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeData.swift; sourceTree = "<group>"; };
+		7AD467501E66BA810095EFCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7ADD8D9A1E5C5900004FBC28 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7AEAF98B1E5EE71100712D96 /* LemallHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LemallHelper.h; sourceTree = "<group>"; };
+		7AEAF98C1E5EE71100712D96 /* LemallHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LemallHelper.m; sourceTree = "<group>"; };
+		7AEF534D1E5EC8AF0040D9E5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7AEF534F1E5EC8BA0040D9E5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7AEF53511E5EC8C30040D9E5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7AEF53531E5EC8D00040D9E5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7AEF53551E5EC8E00040D9E5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7AEF53571E5EC8EC0040D9E5 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7AEF53591E5EC8F30040D9E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7AEF535B1E5EC8FC0040D9E5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7AEF535D1E5EC9040040D9E5 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		7AEF535F1E5ECBAB0040D9E5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7AEF53621E5EDE010040D9E5 /* Leme-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Leme-Bridging-Header.h"; path = "../Leme/Leme-Bridging-Header.h"; sourceTree = "<group>"; };
+		BAA69FDC82D89433778023FC /* Pods-Leme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leme/Pods-Leme.release.xcconfig"; sourceTree = "<group>"; };
+		C217D23C4CBB6ACA3A1D2BD7 /* Pods_Leme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C748336F7821075BB339E4BF /* Pods-LemeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LemeTests/Pods-LemeTests.release.xcconfig"; sourceTree = "<group>"; };
+		D968B7614EA83A8D40840BB9 /* Pods-Leme-LemeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leme-LemeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leme-LemeTests/Pods-Leme-LemeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E06D6A12DA3D82D465272D /* Pods_LemeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LemeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +89,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD467511E66BA810095EFCE /* UIKit.framework in Frameworks */,
+				7AEF53611E5EDC960040D9E5 /* libz.tbd in Frameworks */,
+				7AEF535E1E5EC9040040D9E5 /* JavaScriptCore.framework in Frameworks */,
+				7AEF535C1E5EC8FC0040D9E5 /* CoreMotion.framework in Frameworks */,
+				7AEF535A1E5EC8F30040D9E5 /* CoreGraphics.framework in Frameworks */,
+				7AEF53581E5EC8EC0040D9E5 /* CoreTelephony.framework in Frameworks */,
+				7AEF53561E5EC8E00040D9E5 /* libsqlite3.0.tbd in Frameworks */,
+				7AEF53541E5EC8D00040D9E5 /* libc++.tbd in Frameworks */,
+				7AEF53521E5EC8C30040D9E5 /* Security.framework in Frameworks */,
+				7AEF53501E5EC8BA0040D9E5 /* SystemConfiguration.framework in Frameworks */,
+				7AEF534E1E5EC8AF0040D9E5 /* CFNetwork.framework in Frameworks */,
+				A67C2F47C8A528971A79F8BD /* Pods_Leme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,16 +108,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6815AB13BDD14A8C880EAE9 /* Pods_LemeTests.framework in Frameworks */,
+				8788CE77A8C7F7D5D7740A90 /* Pods_Leme_LemeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5643F960EE555D18123C99C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57D4269F9C8476317928B92C /* Pods-Leme.debug.xcconfig */,
+				BAA69FDC82D89433778023FC /* Pods-Leme.release.xcconfig */,
+				668B36140DE49EC31E7926E8 /* Pods-LemeTests.debug.xcconfig */,
+				C748336F7821075BB339E4BF /* Pods-LemeTests.release.xcconfig */,
+				D968B7614EA83A8D40840BB9 /* Pods-Leme-LemeTests.debug.xcconfig */,
+				37267285814A4BF4CFD221BB /* Pods-Leme-LemeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7A8FCAC41E5BDB9A003942B5 = {
 			isa = PBXGroup;
 			children = (
 				7A8FCACF1E5BDB9A003942B5 /* Leme */,
+				7AAC73B61E5FF96B00D66577 /* General */,
+				7AAC73B51E5FF95D00D66577 /* Sections */,
+				7AEAF98A1E5EE6ED00712D96 /* Helpers */,
+				7AEF53301E5EC8620040D9E5 /* Vendors */,
+				5643F960EE555D18123C99C2 /* Pods */,
+				7AAC73B81E5FFA6700D66577 /* Resources */,
+				CE4AC68C98BBDFC4132DEF61 /* Frameworks */,
 				7A8FCAE61E5BDB9A003942B5 /* LemeTests */,
 				7A8FCACE1E5BDB9A003942B5 /* Products */,
 			);
@@ -79,13 +157,10 @@
 		7A8FCACF1E5BDB9A003942B5 /* Leme */ = {
 			isa = PBXGroup;
 			children = (
+				7ADD8D9A1E5C5900004FBC28 /* main.swift */,
 				7A8FCAD01E5BDB9A003942B5 /* AppDelegate.swift */,
 				7A8FCAD21E5BDB9A003942B5 /* FirstViewController.swift */,
 				7A8FCAD41E5BDB9A003942B5 /* SecondViewController.swift */,
-				7A8FCAD61E5BDB9A003942B5 /* Main.storyboard */,
-				7A8FCAD91E5BDB9A003942B5 /* Assets.xcassets */,
-				7A8FCADB1E5BDB9A003942B5 /* LaunchScreen.storyboard */,
-				7A8FCADE1E5BDB9A003942B5 /* Info.plist */,
 			);
 			path = Leme;
 			sourceTree = "<group>";
@@ -99,6 +174,88 @@
 			path = LemeTests;
 			sourceTree = "<group>";
 		};
+		7AAB46291E66A53900594257 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				7AAB462A1E66A54400594257 /* SomeData.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		7AAC73B51E5FF95D00D66577 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				7AAC73B71E5FF9AF00D66577 /* Bind */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		7AAC73B61E5FF96B00D66577 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				7A6D623C1E6540E700D94A33 /* LemeApi.swift */,
+				7AAB46291E66A53900594257 /* DataSources */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		7AAC73B71E5FF9AF00D66577 /* Bind */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Bind;
+			path = BindViewController;
+			sourceTree = "<group>";
+		};
+		7AAC73B81E5FFA6700D66577 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A8FCAD61E5BDB9A003942B5 /* Main.storyboard */,
+				7A8FCAD91E5BDB9A003942B5 /* Assets.xcassets */,
+				7A8FCADB1E5BDB9A003942B5 /* LaunchScreen.storyboard */,
+				7A8FCADE1E5BDB9A003942B5 /* Info.plist */,
+				7AEF53621E5EDE010040D9E5 /* Leme-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7AEAF98A1E5EE6ED00712D96 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7AEAF98B1E5EE71100712D96 /* LemallHelper.h */,
+				7AEAF98C1E5EE71100712D96 /* LemallHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7AEF53301E5EC8620040D9E5 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		CE4AC68C98BBDFC4132DEF61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AD467501E66BA810095EFCE /* UIKit.framework */,
+				7AEF535F1E5ECBAB0040D9E5 /* libz.tbd */,
+				7AEF535D1E5EC9040040D9E5 /* JavaScriptCore.framework */,
+				7AEF535B1E5EC8FC0040D9E5 /* CoreMotion.framework */,
+				7AEF53591E5EC8F30040D9E5 /* CoreGraphics.framework */,
+				7AEF53571E5EC8EC0040D9E5 /* CoreTelephony.framework */,
+				7AEF53551E5EC8E00040D9E5 /* libsqlite3.0.tbd */,
+				7AEF53531E5EC8D00040D9E5 /* libc++.tbd */,
+				7AEF53511E5EC8C30040D9E5 /* Security.framework */,
+				7AEF534F1E5EC8BA0040D9E5 /* SystemConfiguration.framework */,
+				7AEF534D1E5EC8AF0040D9E5 /* CFNetwork.framework */,
+				C217D23C4CBB6ACA3A1D2BD7 /* Pods_Leme.framework */,
+				F7E06D6A12DA3D82D465272D /* Pods_LemeTests.framework */,
+				110011FA5635C7D66DFA70FB /* Pods_Leme_LemeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A8FCAEC1E5BDB9A003942B5 /* Build configuration list for PBXNativeTarget "Leme" */;
 			buildPhases = (
+				7EF32485ACD1FF1711B704AA /* [CP] Check Pods Manifest.lock */,
 				7A8FCAC91E5BDB9A003942B5 /* Sources */,
 				7A8FCACA1E5BDB9A003942B5 /* Frameworks */,
 				7A8FCACB1E5BDB9A003942B5 /* Resources */,
+				81EEE79430B6EE144875CE78 /* [CP] Embed Pods Frameworks */,
+				8D0907DC46D7562B8297835B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A8FCAEF1E5BDB9A003942B5 /* Build configuration list for PBXNativeTarget "LemeTests" */;
 			buildPhases = (
+				8DD54E39C4BD550D4BEF4E94 /* [CP] Check Pods Manifest.lock */,
 				7A8FCADF1E5BDB9A003942B5 /* Sources */,
 				7A8FCAE01E5BDB9A003942B5 /* Frameworks */,
 				7A8FCAE11E5BDB9A003942B5 /* Resources */,
+				7DC839B5FE9FD1F779A65D1B /* [CP] Embed Pods Frameworks */,
+				9142EE17F3982D9D9E025127 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,13 +362,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DC839B5FE9FD1F779A65D1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leme-LemeTests/Pods-Leme-LemeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EF32485ACD1FF1711B704AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81EEE79430B6EE144875CE78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leme/Pods-Leme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0907DC46D7562B8297835B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leme/Pods-Leme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD54E39C4BD550D4BEF4E94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9142EE17F3982D9D9E025127 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leme-LemeTests/Pods-Leme-LemeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A8FCAC91E5BDB9A003942B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7A8FCAD51E5BDB9A003942B5 /* SecondViewController.swift in Sources */,
+				7A6D623D1E6540E700D94A33 /* LemeApi.swift in Sources */,
+				7AAB462B1E66A54400594257 /* SomeData.swift in Sources */,
 				7A8FCAD11E5BDB9A003942B5 /* AppDelegate.swift in Sources */,
+				7AEAF98D1E5EE71100712D96 /* LemallHelper.m in Sources */,
+				7ADD8D9B1E5C5900004FBC28 /* main.swift in Sources */,
 				7A8FCAD31E5BDB9A003942B5 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +495,7 @@
 				7A8FCAD71E5BDB9A003942B5 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../Leme;
 			sourceTree = "<group>";
 		};
 		7A8FCADB1E5BDB9A003942B5 /* LaunchScreen.storyboard */ = {
@@ -243,6 +504,7 @@
 				7A8FCADC1E5BDB9A003942B5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../Leme;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,32 +603,55 @@
 		};
 		7A8FCAED1E5BDB9A003942B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D4269F9C8476317928B92C /* Pods-Leme.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VBRK62EWB5;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Leme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -debug-time-function-bodies -Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = com.le.Leme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Leme/Leme-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		7A8FCAEE1E5BDB9A003942B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA69FDC82D89433778023FC /* Pods-Leme.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VBRK62EWB5;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Leme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -debug-time-function-bodies -Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = com.le.Leme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Leme/Leme-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
 		7A8FCAF01E5BDB9A003942B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D968B7614EA83A8D40840BB9 /* Pods-Leme-LemeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,6 +667,7 @@
 		};
 		7A8FCAF11E5BDB9A003942B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37267285814A4BF4CFD221BB /* Pods-Leme-LemeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,6 +700,7 @@
 				7A8FCAEE1E5BDB9A003942B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A8FCAEF1E5BDB9A003942B5 /* Build configuration list for PBXNativeTarget "LemeTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +709,7 @@
 				7A8FCAF11E5BDB9A003942B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,17 +7,37 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+//import Alamofire
 
-@UIApplicationMain
+//@UIApplicationMain
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    let disposeBag = DisposeBag()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        LemeProvider
+            .request(LemeAPI.GetSomeData)
+            .map(to: SomeData.self)
+            
+            .subscribe(onNext: { (someData) -> Void in
+            print(someData)
+        }, onError: { (error) -> Void in
+            print(error)
+        }).addDisposableTo(disposeBag)
+
         return true
     }
+
+    //        LemallHelper
+    //            .lemallSDK()
+    //            .initLemallAppID("0c7156617fcd3fcde70f01dddf80f231", leEco: false)
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
