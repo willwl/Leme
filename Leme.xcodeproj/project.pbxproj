@@ -13,9 +13,6 @@
 		7A8FCAD11E5BDB9A003942B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FCAD01E5BDB9A003942B5 /* AppDelegate.swift */; };
 		7A8FCAD31E5BDB9A003942B5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FCAD21E5BDB9A003942B5 /* FirstViewController.swift */; };
 		7A8FCAD51E5BDB9A003942B5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FCAD41E5BDB9A003942B5 /* SecondViewController.swift */; };
-		7A8FCAD81E5BDB9A003942B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8FCAD61E5BDB9A003942B5 /* Main.storyboard */; };
-		7A8FCADA1E5BDB9A003942B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8FCAD91E5BDB9A003942B5 /* Assets.xcassets */; };
-		7A8FCADD1E5BDB9A003942B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A8FCADB1E5BDB9A003942B5 /* LaunchScreen.storyboard */; };
 		7A8FCAE81E5BDB9A003942B5 /* LemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FCAE71E5BDB9A003942B5 /* LemeTests.swift */; };
 		7AAB462B1E66A54400594257 /* SomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB462A1E66A54400594257 /* SomeData.swift */; };
 		7AD467511E66BA810095EFCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467501E66BA810095EFCE /* UIKit.framework */; };
@@ -28,6 +25,10 @@
 		7AD467E91E6812970095EFCE /* libLepaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467DA1E6812970095EFCE /* libLepaySDK.a */; };
 		7AD467EA1E6812970095EFCE /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467DE1E6812970095EFCE /* libPaymentControl.a */; };
 		7AD467EB1E6812970095EFCE /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467E11E6812970095EFCE /* libWeChatSDK.a */; };
+		7AD468C61E686ED20095EFCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD468BF1E686ED20095EFCE /* Assets.xcassets */; };
+		7AD468C71E686ED20095EFCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD468C01E686ED20095EFCE /* LaunchScreen.storyboard */; };
+		7AD468C81E686ED20095EFCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD468C21E686ED20095EFCE /* Main.storyboard */; };
+		7AD468C91E686ED20095EFCE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AD468C41E686ED20095EFCE /* Info.plist */; };
 		7ADD8D9B1E5C5900004FBC28 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD8D9A1E5C5900004FBC28 /* main.swift */; };
 		7AEAF98D1E5EE71100712D96 /* LemallHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEAF98C1E5EE71100712D96 /* LemallHelper.m */; };
 		7AEF534E1E5EC8AF0040D9E5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF534D1E5EC8AF0040D9E5 /* CFNetwork.framework */; };
@@ -58,16 +59,11 @@
 		7A8FCAD01E5BDB9A003942B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A8FCAD21E5BDB9A003942B5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		7A8FCAD41E5BDB9A003942B5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		7A8FCAD71E5BDB9A003942B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7A8FCAD91E5BDB9A003942B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Leme/Assets.xcassets; sourceTree = "<group>"; };
-		7A8FCADC1E5BDB9A003942B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7A8FCADE1E5BDB9A003942B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Leme/Info.plist; sourceTree = "<group>"; };
 		7A8FCAE31E5BDB9A003942B5 /* LemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8FCAE71E5BDB9A003942B5 /* LemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemeTests.swift; sourceTree = "<group>"; };
 		7A8FCAE91E5BDB9A003942B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AAB462A1E66A54400594257 /* SomeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeData.swift; sourceTree = "<group>"; };
 		7AD467501E66BA810095EFCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7AD467701E67FDD40095EFCE /* RxNimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxNimble.framework; path = "Pods/../build/Debug-iphoneos/RxNimble/RxNimble.framework"; sourceTree = "<group>"; };
 		7AD467721E67FE300095EFCE /* RxNimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxNimble.framework; path = "../../Library/Developer/Xcode/DerivedData/Leme-hgmaxbhrflnypkcqwxxwxcljlriq/Build/Products/Debug-iphonesimulator/RxNimble/RxNimble.framework"; sourceTree = "<group>"; };
 		7AD467D11E6812970095EFCE /* LemallSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = LemallSDK.a; sourceTree = "<group>"; };
 		7AD467D21E6812970095EFCE /* lemallSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = lemallSDK.bundle; sourceTree = "<group>"; };
@@ -84,6 +80,11 @@
 		7AD467E11E6812970095EFCE /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		7AD467E21E6812970095EFCE /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		7AD467E31E6812970095EFCE /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		7AD468BF1E686ED20095EFCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AD468C11E686ED20095EFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AD468C31E686ED20095EFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AD468C41E686ED20095EFCE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD468C51E686ED20095EFCE /* Leme-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Leme-Bridging-Header.h"; sourceTree = "<group>"; };
 		7ADD8D9A1E5C5900004FBC28 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7AEAF98B1E5EE71100712D96 /* LemallHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LemallHelper.h; sourceTree = "<group>"; };
 		7AEAF98C1E5EE71100712D96 /* LemallHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LemallHelper.m; sourceTree = "<group>"; };
@@ -97,7 +98,6 @@
 		7AEF535B1E5EC8FC0040D9E5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		7AEF535D1E5EC9040040D9E5 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		7AEF535F1E5ECBAB0040D9E5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		7AEF53621E5EDE010040D9E5 /* Leme-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Leme-Bridging-Header.h"; path = "../Leme/Leme-Bridging-Header.h"; sourceTree = "<group>"; };
 		9573DA0DCBC772CD8759C199 /* Pods-LemeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LemeTests/Pods-LemeTests.release.xcconfig"; sourceTree = "<group>"; };
 		9FB8881830E6E9613203CCE9 /* Pods-LemeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LemeTests/Pods-LemeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A31FBD00AD55F6193DF17205 /* Pods-Leme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leme/Pods-Leme.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,8 +150,8 @@
 				7AAC73B61E5FF96B00D66577 /* General */,
 				7AAC73B51E5FF95D00D66577 /* Sections */,
 				7AEAF98A1E5EE6ED00712D96 /* Helpers */,
+				7AD468BE1E686ED20095EFCE /* Resources */,
 				7AEF53301E5EC8620040D9E5 /* Vendors */,
-				7AAC73B81E5FFA6700D66577 /* Resources */,
 				CE4AC68C98BBDFC4132DEF61 /* Frameworks */,
 				7A8FCAE61E5BDB9A003942B5 /* LemeTests */,
 				7A8FCACE1E5BDB9A003942B5 /* Products */,
@@ -221,18 +221,6 @@
 			path = BindViewController;
 			sourceTree = "<group>";
 		};
-		7AAC73B81E5FFA6700D66577 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7A8FCAD61E5BDB9A003942B5 /* Main.storyboard */,
-				7A8FCAD91E5BDB9A003942B5 /* Assets.xcassets */,
-				7A8FCADB1E5BDB9A003942B5 /* LaunchScreen.storyboard */,
-				7A8FCADE1E5BDB9A003942B5 /* Info.plist */,
-				7AEF53621E5EDE010040D9E5 /* Leme-Bridging-Header.h */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		7AD467D01E6812970095EFCE /* LemallSdk1.3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +275,18 @@
 			path = wxpay;
 			sourceTree = "<group>";
 		};
+		7AD468BE1E686ED20095EFCE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7AD468BF1E686ED20095EFCE /* Assets.xcassets */,
+				7AD468C01E686ED20095EFCE /* LaunchScreen.storyboard */,
+				7AD468C21E686ED20095EFCE /* Main.storyboard */,
+				7AD468C41E686ED20095EFCE /* Info.plist */,
+				7AD468C51E686ED20095EFCE /* Leme-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		7AEAF98A1E5EE6ED00712D96 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,7 +308,6 @@
 			isa = PBXGroup;
 			children = (
 				7AD467721E67FE300095EFCE /* RxNimble.framework */,
-				7AD467701E67FDD40095EFCE /* RxNimble.framework */,
 				7AD467501E66BA810095EFCE /* UIKit.framework */,
 				7AEF535F1E5ECBAB0040D9E5 /* libz.tbd */,
 				7AEF535D1E5EC9040040D9E5 /* JavaScriptCore.framework */,
@@ -430,10 +429,11 @@
 			files = (
 				7AD467E81E6812970095EFCE /* LepaySDK.bundle in Resources */,
 				7AD467E61E6812970095EFCE /* AlipaySDK.bundle in Resources */,
-				7A8FCADD1E5BDB9A003942B5 /* LaunchScreen.storyboard in Resources */,
+				7AD468C61E686ED20095EFCE /* Assets.xcassets in Resources */,
+				7AD468C81E686ED20095EFCE /* Main.storyboard in Resources */,
+				7AD468C71E686ED20095EFCE /* LaunchScreen.storyboard in Resources */,
 				7AD467E51E6812970095EFCE /* lemallSDK.bundle in Resources */,
-				7A8FCADA1E5BDB9A003942B5 /* Assets.xcassets in Resources */,
-				7A8FCAD81E5BDB9A003942B5 /* Main.storyboard in Resources */,
+				7AD468C91E686ED20095EFCE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,22 +573,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7A8FCAD61E5BDB9A003942B5 /* Main.storyboard */ = {
+		7AD468C01E686ED20095EFCE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A8FCAD71E5BDB9A003942B5 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../Leme;
-			sourceTree = "<group>";
-		};
-		7A8FCADB1E5BDB9A003942B5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A8FCADC1E5BDB9A003942B5 /* Base */,
+				7AD468C11E686ED20095EFCE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ../Leme;
+			sourceTree = "<group>";
+		};
+		7AD468C21E686ED20095EFCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AD468C31E686ED20095EFCE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -701,7 +699,7 @@
 					"$(PROJECT_DIR)/Vendors/LemallSdk1.3/LepaySDK/AliPay",
 				);
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = Leme/Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -718,7 +716,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -debug-time-function-bodies -Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = com.le.Leme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Leme/Leme-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Resources/Leme-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
@@ -740,7 +738,7 @@
 					"$(PROJECT_DIR)/Vendors/LemallSdk1.3/LepaySDK/AliPay",
 				);
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = Leme/Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -757,7 +755,7 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -debug-time-function-bodies -Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = com.le.Leme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Leme/Leme-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Resources/Leme-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = "";
 			};

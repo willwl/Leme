@@ -14,24 +14,26 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         
     }
+    @IBAction func gogogo(_ sender: Any) {
+        
+        LemallHelper
+            .lemallSDK()
+            .openLemallPage(self,
+                            pageFlag: PAGE_FLAG_RECOMMENDED,
+                            leTradeInfo: nil)
+            { (result) in
+                print("result \(result)")
+        }
+    }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
+       /*
         let root = (UIApplication.shared.delegate as! AppDelegate).window?.rootViewController
         DispatchQueue.global().async {
             DispatchQueue.main.async {
-                LemallHelper
-                    .lemallSDK()
-                    .openLemallPage(self,
-                                    pageFlag: PAGE_FLAG_RECOMMENDED,
-                                    leTradeInfo: nil)
-                    { (result) in
-                        print("result \(result)")
-                    }
-            }
         }
- 
+ */
 
     }
     
