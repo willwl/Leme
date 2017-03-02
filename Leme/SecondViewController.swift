@@ -12,22 +12,27 @@ class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        DispatchQueue.global().async {
-//            DispatchQueue.main.async {
-//                }
-//            }
-//        }
+        
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
         let root = (UIApplication.shared.delegate as! AppDelegate).window?.rootViewController
+        DispatchQueue.global().async {
+            DispatchQueue.main.async {
+                LemallHelper
+                    .lemallSDK()
+                    .openLemallPage(self,
+                                    pageFlag: PAGE_FLAG_RECOMMENDED,
+                                    leTradeInfo: nil)
+                    { (result) in
+                        print("result \(result)")
+                    }
+            }
+        }
+ 
 
-//        LemallHelper
-//            .lemallSDK()
-//            .openLemallPage(root, pageFlag: "PAGE_FLAG_RECOMMENDED", leTradeInfo: nil) { (result) in
-//                print("result \(result)")
-//        }
     }
     
     override func didReceiveMemoryWarning() {

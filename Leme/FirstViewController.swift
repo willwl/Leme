@@ -7,13 +7,13 @@
 //
 
 import UIKit
-
+import CWStatusBarNotification
 class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         let t = "Lauched in \(CFAbsoluteTimeGetCurrent() - MainStartTime) seconds"
-//        CWStatusBarNotification().display(withMessage: t, forDuration: 1)
+        CWStatusBarNotification().display(withMessage: t, forDuration: 3)
     }
 
     override func didReceiveMemoryWarning() {

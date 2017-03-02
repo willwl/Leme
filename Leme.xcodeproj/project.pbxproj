@@ -20,6 +20,14 @@
 		7AAB462B1E66A54400594257 /* SomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB462A1E66A54400594257 /* SomeData.swift */; };
 		7AD467511E66BA810095EFCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467501E66BA810095EFCE /* UIKit.framework */; };
 		7AD467731E67FE300095EFCE /* RxNimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467721E67FE300095EFCE /* RxNimble.framework */; };
+		7AD467E41E6812970095EFCE /* LemallSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467D11E6812970095EFCE /* LemallSDK.a */; };
+		7AD467E51E6812970095EFCE /* lemallSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AD467D21E6812970095EFCE /* lemallSDK.bundle */; };
+		7AD467E61E6812970095EFCE /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AD467D61E6812970095EFCE /* AlipaySDK.bundle */; };
+		7AD467E71E6812970095EFCE /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467D71E6812970095EFCE /* AlipaySDK.framework */; };
+		7AD467E81E6812970095EFCE /* LepaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AD467D81E6812970095EFCE /* LepaySDK.bundle */; };
+		7AD467E91E6812970095EFCE /* libLepaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467DA1E6812970095EFCE /* libLepaySDK.a */; };
+		7AD467EA1E6812970095EFCE /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467DE1E6812970095EFCE /* libPaymentControl.a */; };
+		7AD467EB1E6812970095EFCE /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467E11E6812970095EFCE /* libWeChatSDK.a */; };
 		7ADD8D9B1E5C5900004FBC28 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD8D9A1E5C5900004FBC28 /* main.swift */; };
 		7AEAF98D1E5EE71100712D96 /* LemallHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEAF98C1E5EE71100712D96 /* LemallHelper.m */; };
 		7AEF534E1E5EC8AF0040D9E5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF534D1E5EC8AF0040D9E5 /* CFNetwork.framework */; };
@@ -61,6 +69,21 @@
 		7AD467501E66BA810095EFCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7AD467701E67FDD40095EFCE /* RxNimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxNimble.framework; path = "Pods/../build/Debug-iphoneos/RxNimble/RxNimble.framework"; sourceTree = "<group>"; };
 		7AD467721E67FE300095EFCE /* RxNimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxNimble.framework; path = "../../Library/Developer/Xcode/DerivedData/Leme-hgmaxbhrflnypkcqwxxwxcljlriq/Build/Products/Debug-iphonesimulator/RxNimble/RxNimble.framework"; sourceTree = "<group>"; };
+		7AD467D11E6812970095EFCE /* LemallSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = LemallSDK.a; sourceTree = "<group>"; };
+		7AD467D21E6812970095EFCE /* lemallSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = lemallSDK.bundle; sourceTree = "<group>"; };
+		7AD467D31E6812970095EFCE /* LemallSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LemallSDK.h; sourceTree = "<group>"; };
+		7AD467D61E6812970095EFCE /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		7AD467D71E6812970095EFCE /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		7AD467D81E6812970095EFCE /* LepaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LepaySDK.bundle; sourceTree = "<group>"; };
+		7AD467D91E6812970095EFCE /* LepaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LepaySDK.h; sourceTree = "<group>"; };
+		7AD467DA1E6812970095EFCE /* libLepaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLepaySDK.a; sourceTree = "<group>"; };
+		7AD467DB1E6812970095EFCE /* LPSLepayBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSLepayBaseModel.h; sourceTree = "<group>"; };
+		7AD467DC1E6812970095EFCE /* LPSLepayIapProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSLepayIapProductModel.h; sourceTree = "<group>"; };
+		7AD467DE1E6812970095EFCE /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
+		7AD467DF1E6812970095EFCE /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		7AD467E11E6812970095EFCE /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		7AD467E21E6812970095EFCE /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		7AD467E31E6812970095EFCE /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		7ADD8D9A1E5C5900004FBC28 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7AEAF98B1E5EE71100712D96 /* LemallHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LemallHelper.h; sourceTree = "<group>"; };
 		7AEAF98C1E5EE71100712D96 /* LemallHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LemallHelper.m; sourceTree = "<group>"; };
@@ -89,16 +112,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AD467511E66BA810095EFCE /* UIKit.framework in Frameworks */,
+				7AD467EB1E6812970095EFCE /* libWeChatSDK.a in Frameworks */,
 				7AEF53611E5EDC960040D9E5 /* libz.tbd in Frameworks */,
 				7AEF535E1E5EC9040040D9E5 /* JavaScriptCore.framework in Frameworks */,
 				7AEF535C1E5EC8FC0040D9E5 /* CoreMotion.framework in Frameworks */,
 				7AEF535A1E5EC8F30040D9E5 /* CoreGraphics.framework in Frameworks */,
 				7AEF53581E5EC8EC0040D9E5 /* CoreTelephony.framework in Frameworks */,
+				7AD467E41E6812970095EFCE /* LemallSDK.a in Frameworks */,
+				7AD467E71E6812970095EFCE /* AlipaySDK.framework in Frameworks */,
+				7AD467EA1E6812970095EFCE /* libPaymentControl.a in Frameworks */,
 				7AEF53561E5EC8E00040D9E5 /* libsqlite3.0.tbd in Frameworks */,
 				7AEF53541E5EC8D00040D9E5 /* libc++.tbd in Frameworks */,
 				7AEF53521E5EC8C30040D9E5 /* Security.framework in Frameworks */,
 				7AEF53501E5EC8BA0040D9E5 /* SystemConfiguration.framework in Frameworks */,
 				7AEF534E1E5EC8AF0040D9E5 /* CFNetwork.framework in Frameworks */,
+				7AD467E91E6812970095EFCE /* libLepaySDK.a in Frameworks */,
 				3C4BA3464F3D1407B9BF0649 /* Pods_Leme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +233,60 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		7AD467D01E6812970095EFCE /* LemallSdk1.3 */ = {
+			isa = PBXGroup;
+			children = (
+				7AD467D11E6812970095EFCE /* LemallSDK.a */,
+				7AD467D21E6812970095EFCE /* lemallSDK.bundle */,
+				7AD467D31E6812970095EFCE /* LemallSDK.h */,
+				7AD467D41E6812970095EFCE /* LepaySDK */,
+			);
+			path = LemallSdk1.3;
+			sourceTree = "<group>";
+		};
+		7AD467D41E6812970095EFCE /* LepaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				7AD467D51E6812970095EFCE /* AliPay */,
+				7AD467D81E6812970095EFCE /* LepaySDK.bundle */,
+				7AD467D91E6812970095EFCE /* LepaySDK.h */,
+				7AD467DA1E6812970095EFCE /* libLepaySDK.a */,
+				7AD467DB1E6812970095EFCE /* LPSLepayBaseModel.h */,
+				7AD467DC1E6812970095EFCE /* LPSLepayIapProductModel.h */,
+				7AD467DD1E6812970095EFCE /* uppay */,
+				7AD467E01E6812970095EFCE /* wxpay */,
+			);
+			path = LepaySDK;
+			sourceTree = "<group>";
+		};
+		7AD467D51E6812970095EFCE /* AliPay */ = {
+			isa = PBXGroup;
+			children = (
+				7AD467D61E6812970095EFCE /* AlipaySDK.bundle */,
+				7AD467D71E6812970095EFCE /* AlipaySDK.framework */,
+			);
+			path = AliPay;
+			sourceTree = "<group>";
+		};
+		7AD467DD1E6812970095EFCE /* uppay */ = {
+			isa = PBXGroup;
+			children = (
+				7AD467DE1E6812970095EFCE /* libPaymentControl.a */,
+				7AD467DF1E6812970095EFCE /* UPPaymentControl.h */,
+			);
+			path = uppay;
+			sourceTree = "<group>";
+		};
+		7AD467E01E6812970095EFCE /* wxpay */ = {
+			isa = PBXGroup;
+			children = (
+				7AD467E11E6812970095EFCE /* libWeChatSDK.a */,
+				7AD467E21E6812970095EFCE /* WXApi.h */,
+				7AD467E31E6812970095EFCE /* WXApiObject.h */,
+			);
+			path = wxpay;
+			sourceTree = "<group>";
+		};
 		7AEAF98A1E5EE6ED00712D96 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +299,7 @@
 		7AEF53301E5EC8620040D9E5 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				7AD467D01E6812970095EFCE /* LemallSdk1.3 */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -345,7 +428,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD467E81E6812970095EFCE /* LepaySDK.bundle in Resources */,
+				7AD467E61E6812970095EFCE /* AlipaySDK.bundle in Resources */,
 				7A8FCADD1E5BDB9A003942B5 /* LaunchScreen.storyboard in Resources */,
+				7AD467E51E6812970095EFCE /* lemallSDK.bundle in Resources */,
 				7A8FCADA1E5BDB9A003942B5 /* Assets.xcassets in Resources */,
 				7A8FCAD81E5BDB9A003942B5 /* Main.storyboard in Resources */,
 			);
@@ -611,12 +697,24 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/RxNimble",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.5/LepaySDK/3rdSDK/AliPay",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.3/LepaySDK/AliPay",
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Leme/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.5",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.5/LepaySDK/3rdSDK/letracker",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.5/LepaySDK/3rdSDK/uppay",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.5/LepaySDK/3rdSDK/wxpay",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.5/LepaySDK",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.3",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.3/LepaySDK",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.3/LepaySDK/uppay",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.3/LepaySDK/wxpay",
+				);
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -debug-time-function-bodies -Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = com.le.Leme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -638,12 +736,24 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/RxNimble",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.5/LepaySDK/3rdSDK/AliPay",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.3/LepaySDK/AliPay",
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Leme/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.5",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.5/LepaySDK/3rdSDK/letracker",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.5/LepaySDK/3rdSDK/uppay",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.5/LepaySDK/3rdSDK/wxpay",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.5/LepaySDK",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.3",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.3/LepaySDK",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.3/LepaySDK/uppay",
+					"$(PROJECT_DIR)/Vendors/LemallSdk1.3/LepaySDK/wxpay",
+				);
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -debug-time-function-bodies -Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = com.le.Leme;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.3.0)
+  - CWStatusBarNotification (2.3.5)
   - Moya (8.0.2):
     - Moya/Core (= 8.0.2)
   - Moya-SwiftyJSONMapper/Core (2.2.0):
@@ -37,6 +38,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.3)
+  - CWStatusBarNotification (~> 2.3.5)
   - Moya-SwiftyJSONMapper/RxSwift
   - Moya/RxSwift
   - RxAlamofire
@@ -48,6 +50,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
   Moya: 47f61da5b634aa71f676431b64ee0f81e976296d
   Moya-SwiftyJSONMapper: 03c9d3e562c9025c8c00fa3ec97ae1da61a2be37
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
@@ -60,6 +63,6 @@ SPEC CHECKSUMS:
   RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 0eaaaee48cf91eddfd0d5b89a8e064c551c44e46
+PODFILE CHECKSUM: 534a0c528d6253fc071a8eab40dbe647fad42204
 
 COCOAPODS: 1.2.0

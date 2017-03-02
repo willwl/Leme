@@ -23,7 +23,7 @@ target 'Leme' do
 #    pod 'DZNEmptyDataSet'
 #    pod 'PullToRefresher'
 #    pod 'SwiftHEXColors'
-#    pod 'CWStatusBarNotification', '~> 2.3.5'
+    pod 'CWStatusBarNotification', '~> 2.3.5'
 
 
   target 'LemeTests' do

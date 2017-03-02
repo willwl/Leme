@@ -8,11 +8,11 @@
 
 #ifndef Leme_Bridging_Header_h
 #define Leme_Bridging_Header_h
-/*
+
 #import "LemallHelper.h"
 
-#import "lemallSDK.h"
- */
+#import "LemallSDK.h"
+ 
 //#import "CWStatusBarNotification.h"
 #endif /* Leme_Bridging_Header_h */
 
