@@ -1,6 +1,0 @@
-framework module Pods_Leme_LemeTests {
-  umbrella header "Pods-Leme-LemeTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

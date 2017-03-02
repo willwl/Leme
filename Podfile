@@ -2,10 +2,12 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '8.0'
+inhibit_all_warnings!
+use_frameworks!
 
 target 'Leme' do
-    use_frameworks!
-    inhibit_all_warnings!
+    # Pods for Leme
+
     pod 'Alamofire',  '~> 4.3'
     pod 'RxSwift',    '~> 3.0'
     pod 'RxCocoa',    '~> 3.0'
@@ -23,12 +25,20 @@ target 'Leme' do
 #    pod 'SwiftHEXColors'
 #    pod 'CWStatusBarNotification', '~> 2.3.5'
 
-  # Pods for Leme
 
   target 'LemeTests' do
-    #inherit! :search_paths
+    inherit! :search_paths
     #Pods for testing
-    #pod 'RxNimble'
+    pod 'RxNimble'
+    pod 'Alamofire',  '~> 4.3'
+    pod 'RxSwift',    '~> 3.0'
+    pod 'RxCocoa',    '~> 3.0'
+    pod 'RxAlamofire'
+    pod 'RxDataSources', '~> 1.0'
+    pod 'Moya/RxSwift'
+    pod 'SwiftyJSON'
+    pod 'Moya-SwiftyJSONMapper/RxSwift'
+
   end
 
 end

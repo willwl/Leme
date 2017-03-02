@@ -12,7 +12,7 @@ import Moya
 import Moya_SwiftyJSONMapper
 import SwiftyJSON
 
-let LemeProvider = RxMoyaProvider<LemeAPI>(stubClosure: MoyaProvider.immediatelyStub)
+let RxLemeApi = RxMoyaProvider<LemeAPI>(stubClosure: MoyaProvider.neverStub)
 
 enum LemeAPI {
     case GetSomeData

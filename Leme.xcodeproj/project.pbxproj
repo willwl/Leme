@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C4BA3464F3D1407B9BF0649 /* Pods_Leme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CBF0985F09CE1A9EB62C1D /* Pods_Leme.framework */; };
+		5B22A95193B5CF2EA2D0617E /* Pods_LemeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15EB363277A7368BB88E0DC /* Pods_LemeTests.framework */; };
 		7A6D623D1E6540E700D94A33 /* LemeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6D623C1E6540E700D94A33 /* LemeApi.swift */; };
 		7A8FCAD11E5BDB9A003942B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FCAD01E5BDB9A003942B5 /* AppDelegate.swift */; };
 		7A8FCAD31E5BDB9A003942B5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FCAD21E5BDB9A003942B5 /* FirstViewController.swift */; };
@@ -17,6 +19,7 @@
 		7A8FCAE81E5BDB9A003942B5 /* LemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8FCAE71E5BDB9A003942B5 /* LemeTests.swift */; };
 		7AAB462B1E66A54400594257 /* SomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB462A1E66A54400594257 /* SomeData.swift */; };
 		7AD467511E66BA810095EFCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467501E66BA810095EFCE /* UIKit.framework */; };
+		7AD467731E67FE300095EFCE /* RxNimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD467721E67FE300095EFCE /* RxNimble.framework */; };
 		7ADD8D9B1E5C5900004FBC28 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD8D9A1E5C5900004FBC28 /* main.swift */; };
 		7AEAF98D1E5EE71100712D96 /* LemallHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEAF98C1E5EE71100712D96 /* LemallHelper.m */; };
 		7AEF534E1E5EC8AF0040D9E5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF534D1E5EC8AF0040D9E5 /* CFNetwork.framework */; };
@@ -29,9 +32,6 @@
 		7AEF535C1E5EC8FC0040D9E5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF535B1E5EC8FC0040D9E5 /* CoreMotion.framework */; };
 		7AEF535E1E5EC9040040D9E5 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF535D1E5EC9040040D9E5 /* JavaScriptCore.framework */; };
 		7AEF53611E5EDC960040D9E5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEF535F1E5ECBAB0040D9E5 /* libz.tbd */; };
-		8788CE77A8C7F7D5D7740A90 /* Pods_Leme_LemeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110011FA5635C7D66DFA70FB /* Pods_Leme_LemeTests.framework */; };
-		A67C2F47C8A528971A79F8BD /* Pods_Leme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C217D23C4CBB6ACA3A1D2BD7 /* Pods_Leme.framework */; };
-		F6815AB13BDD14A8C880EAE9 /* Pods_LemeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E06D6A12DA3D82D465272D /* Pods_LemeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		110011FA5635C7D66DFA70FB /* Pods_Leme_LemeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leme_LemeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37267285814A4BF4CFD221BB /* Pods-Leme-LemeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leme-LemeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leme-LemeTests/Pods-Leme-LemeTests.release.xcconfig"; sourceTree = "<group>"; };
-		57D4269F9C8476317928B92C /* Pods-Leme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leme/Pods-Leme.debug.xcconfig"; sourceTree = "<group>"; };
-		668B36140DE49EC31E7926E8 /* Pods-LemeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LemeTests/Pods-LemeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A6D623C1E6540E700D94A33 /* LemeApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LemeApi.swift; sourceTree = "<group>"; };
 		7A8FCACD1E5BDB9A003942B5 /* Leme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8FCAD01E5BDB9A003942B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +59,8 @@
 		7A8FCAE91E5BDB9A003942B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AAB462A1E66A54400594257 /* SomeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeData.swift; sourceTree = "<group>"; };
 		7AD467501E66BA810095EFCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7AD467701E67FDD40095EFCE /* RxNimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxNimble.framework; path = "Pods/../build/Debug-iphoneos/RxNimble/RxNimble.framework"; sourceTree = "<group>"; };
+		7AD467721E67FE300095EFCE /* RxNimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxNimble.framework; path = "../../Library/Developer/Xcode/DerivedData/Leme-hgmaxbhrflnypkcqwxxwxcljlriq/Build/Products/Debug-iphonesimulator/RxNimble/RxNimble.framework"; sourceTree = "<group>"; };
 		7ADD8D9A1E5C5900004FBC28 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7AEAF98B1E5EE71100712D96 /* LemallHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LemallHelper.h; sourceTree = "<group>"; };
 		7AEAF98C1E5EE71100712D96 /* LemallHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LemallHelper.m; sourceTree = "<group>"; };
@@ -77,11 +75,12 @@
 		7AEF535D1E5EC9040040D9E5 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		7AEF535F1E5ECBAB0040D9E5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		7AEF53621E5EDE010040D9E5 /* Leme-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Leme-Bridging-Header.h"; path = "../Leme/Leme-Bridging-Header.h"; sourceTree = "<group>"; };
-		BAA69FDC82D89433778023FC /* Pods-Leme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leme/Pods-Leme.release.xcconfig"; sourceTree = "<group>"; };
-		C217D23C4CBB6ACA3A1D2BD7 /* Pods_Leme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C748336F7821075BB339E4BF /* Pods-LemeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LemeTests/Pods-LemeTests.release.xcconfig"; sourceTree = "<group>"; };
-		D968B7614EA83A8D40840BB9 /* Pods-Leme-LemeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leme-LemeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leme-LemeTests/Pods-Leme-LemeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F7E06D6A12DA3D82D465272D /* Pods_LemeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LemeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9573DA0DCBC772CD8759C199 /* Pods-LemeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LemeTests/Pods-LemeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FB8881830E6E9613203CCE9 /* Pods-LemeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LemeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LemeTests/Pods-LemeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A31FBD00AD55F6193DF17205 /* Pods-Leme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Leme/Pods-Leme.release.xcconfig"; sourceTree = "<group>"; };
+		BED748586794CF77236E344C /* Pods-Leme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Leme/Pods-Leme.debug.xcconfig"; sourceTree = "<group>"; };
+		E2CBF0985F09CE1A9EB62C1D /* Pods_Leme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15EB363277A7368BB88E0DC /* Pods_LemeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LemeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +99,7 @@
 				7AEF53521E5EC8C30040D9E5 /* Security.framework in Frameworks */,
 				7AEF53501E5EC8BA0040D9E5 /* SystemConfiguration.framework in Frameworks */,
 				7AEF534E1E5EC8AF0040D9E5 /* CFNetwork.framework in Frameworks */,
-				A67C2F47C8A528971A79F8BD /* Pods_Leme.framework in Frameworks */,
+				3C4BA3464F3D1407B9BF0649 /* Pods_Leme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,27 +107,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6815AB13BDD14A8C880EAE9 /* Pods_LemeTests.framework in Frameworks */,
-				8788CE77A8C7F7D5D7740A90 /* Pods_Leme_LemeTests.framework in Frameworks */,
+				7AD467731E67FE300095EFCE /* RxNimble.framework in Frameworks */,
+				5B22A95193B5CF2EA2D0617E /* Pods_LemeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5643F960EE555D18123C99C2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				57D4269F9C8476317928B92C /* Pods-Leme.debug.xcconfig */,
-				BAA69FDC82D89433778023FC /* Pods-Leme.release.xcconfig */,
-				668B36140DE49EC31E7926E8 /* Pods-LemeTests.debug.xcconfig */,
-				C748336F7821075BB339E4BF /* Pods-LemeTests.release.xcconfig */,
-				D968B7614EA83A8D40840BB9 /* Pods-Leme-LemeTests.debug.xcconfig */,
-				37267285814A4BF4CFD221BB /* Pods-Leme-LemeTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7A8FCAC41E5BDB9A003942B5 = {
 			isa = PBXGroup;
 			children = (
@@ -137,11 +123,11 @@
 				7AAC73B51E5FF95D00D66577 /* Sections */,
 				7AEAF98A1E5EE6ED00712D96 /* Helpers */,
 				7AEF53301E5EC8620040D9E5 /* Vendors */,
-				5643F960EE555D18123C99C2 /* Pods */,
 				7AAC73B81E5FFA6700D66577 /* Resources */,
 				CE4AC68C98BBDFC4132DEF61 /* Frameworks */,
 				7A8FCAE61E5BDB9A003942B5 /* LemeTests */,
 				7A8FCACE1E5BDB9A003942B5 /* Products */,
+				F4084B96F723E17F11D3273F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,6 +224,8 @@
 		CE4AC68C98BBDFC4132DEF61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7AD467721E67FE300095EFCE /* RxNimble.framework */,
+				7AD467701E67FDD40095EFCE /* RxNimble.framework */,
 				7AD467501E66BA810095EFCE /* UIKit.framework */,
 				7AEF535F1E5ECBAB0040D9E5 /* libz.tbd */,
 				7AEF535D1E5EC9040040D9E5 /* JavaScriptCore.framework */,
@@ -249,11 +237,21 @@
 				7AEF53511E5EC8C30040D9E5 /* Security.framework */,
 				7AEF534F1E5EC8BA0040D9E5 /* SystemConfiguration.framework */,
 				7AEF534D1E5EC8AF0040D9E5 /* CFNetwork.framework */,
-				C217D23C4CBB6ACA3A1D2BD7 /* Pods_Leme.framework */,
-				F7E06D6A12DA3D82D465272D /* Pods_LemeTests.framework */,
-				110011FA5635C7D66DFA70FB /* Pods_Leme_LemeTests.framework */,
+				E2CBF0985F09CE1A9EB62C1D /* Pods_Leme.framework */,
+				F15EB363277A7368BB88E0DC /* Pods_LemeTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4084B96F723E17F11D3273F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BED748586794CF77236E344C /* Pods-Leme.debug.xcconfig */,
+				A31FBD00AD55F6193DF17205 /* Pods-Leme.release.xcconfig */,
+				9FB8881830E6E9613203CCE9 /* Pods-LemeTests.debug.xcconfig */,
+				9573DA0DCBC772CD8759C199 /* Pods-LemeTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,12 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A8FCAEC1E5BDB9A003942B5 /* Build configuration list for PBXNativeTarget "Leme" */;
 			buildPhases = (
-				7EF32485ACD1FF1711B704AA /* [CP] Check Pods Manifest.lock */,
+				BF8DB43D54AB1178B136266B /* [CP] Check Pods Manifest.lock */,
 				7A8FCAC91E5BDB9A003942B5 /* Sources */,
 				7A8FCACA1E5BDB9A003942B5 /* Frameworks */,
 				7A8FCACB1E5BDB9A003942B5 /* Resources */,
-				81EEE79430B6EE144875CE78 /* [CP] Embed Pods Frameworks */,
-				8D0907DC46D7562B8297835B /* [CP] Copy Pods Resources */,
+				5E505E31F6B9C676C82E1CF8 /* [CP] Embed Pods Frameworks */,
+				7DF206B31E409A3481ABC080 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,12 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A8FCAEF1E5BDB9A003942B5 /* Build configuration list for PBXNativeTarget "LemeTests" */;
 			buildPhases = (
-				8DD54E39C4BD550D4BEF4E94 /* [CP] Check Pods Manifest.lock */,
+				804C6B0C867CDCCE08838861 /* [CP] Check Pods Manifest.lock */,
 				7A8FCADF1E5BDB9A003942B5 /* Sources */,
 				7A8FCAE01E5BDB9A003942B5 /* Frameworks */,
 				7A8FCAE11E5BDB9A003942B5 /* Resources */,
-				7DC839B5FE9FD1F779A65D1B /* [CP] Embed Pods Frameworks */,
-				9142EE17F3982D9D9E025127 /* [CP] Copy Pods Resources */,
+				34F3B91E5F08BE18A678EFF7 /* [CP] Embed Pods Frameworks */,
+				B5A0BA9840E080A2E8402F16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -363,7 +361,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7DC839B5FE9FD1F779A65D1B /* [CP] Embed Pods Frameworks */ = {
+		34F3B91E5F08BE18A678EFF7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,25 +373,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leme-LemeTests/Pods-Leme-LemeTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LemeTests/Pods-LemeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7EF32485ACD1FF1711B704AA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		81EEE79430B6EE144875CE78 /* [CP] Embed Pods Frameworks */ = {
+		5E505E31F6B9C676C82E1CF8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -408,7 +391,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leme/Pods-Leme-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8D0907DC46D7562B8297835B /* [CP] Copy Pods Resources */ = {
+		7DF206B31E409A3481ABC080 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,7 +406,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leme/Pods-Leme-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8DD54E39C4BD550D4BEF4E94 /* [CP] Check Pods Manifest.lock */ = {
+		804C6B0C867CDCCE08838861 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,7 +421,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		9142EE17F3982D9D9E025127 /* [CP] Copy Pods Resources */ = {
+		B5A0BA9840E080A2E8402F16 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -450,7 +433,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Leme-LemeTests/Pods-Leme-LemeTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LemeTests/Pods-LemeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF8DB43D54AB1178B136266B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -603,14 +601,17 @@
 		};
 		7A8FCAED1E5BDB9A003942B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57D4269F9C8476317928B92C /* Pods-Leme.debug.xcconfig */;
+			baseConfigurationReference = BED748586794CF77236E344C /* Pods-Leme.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VBRK62EWB5;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RxNimble",
+				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Leme/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -627,14 +628,17 @@
 		};
 		7A8FCAEE1E5BDB9A003942B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAA69FDC82D89433778023FC /* Pods-Leme.release.xcconfig */;
+			baseConfigurationReference = A31FBD00AD55F6193DF17205 /* Pods-Leme.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = VBRK62EWB5;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RxNimble",
+				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Leme/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -651,7 +655,7 @@
 		};
 		7A8FCAF01E5BDB9A003942B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D968B7614EA83A8D40840BB9 /* Pods-Leme-LemeTests.debug.xcconfig */;
+			baseConfigurationReference = 9FB8881830E6E9613203CCE9 /* Pods-LemeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -667,7 +671,7 @@
 		};
 		7A8FCAF11E5BDB9A003942B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37267285814A4BF4CFD221BB /* Pods-Leme-LemeTests.release.xcconfig */;
+			baseConfigurationReference = 9573DA0DCBC772CD8759C199 /* Pods-LemeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

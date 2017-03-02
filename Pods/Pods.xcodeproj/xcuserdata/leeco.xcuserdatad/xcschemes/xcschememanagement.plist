@@ -19,12 +19,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Leme-LemeTests.xcscheme</key>
+		<key>Nimble.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-Leme.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-LemeTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -39,12 +44,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RxBlocking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>RxCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>RxDataSources.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxNimble.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -62,7 +77,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0E0546BD26D9216AD157D6A23B81B612</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1321E318D10CFDC9F5B93A7952492CCD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1B423D5855C271CC97BF593D9EF755F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2664771D474BAE3A75C42A9E3D248154</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,17 +127,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BC0261465F7CA84B7974B08253F62DB9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>C419A9BCC9AACDC44A26B80764B6B554</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>DFFD80A9DE296A47F3FBC890527BC488</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E64E314F67C03EF173DF3FBCE68F6CC6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
