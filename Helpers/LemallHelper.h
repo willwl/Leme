@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-/*
+
 #import "LemallSDK.h"
 @interface LemallHelper : NSObject
 + (LemallSDK *)lemallSDK;
 
 @end
-*/
+
