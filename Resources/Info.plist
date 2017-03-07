@@ -62,5 +62,60 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>sinaweibohd</string>
+        <string>sinaweibo</string>
+        <string>weibosdk</string>
+        <string>weibosdk2.5</string>
+        <string>weixin</string>
+        <string>mqq</string>
+        <string>mqqapi</string>
+        <string>mqqbrowser</string>
+        <string>mttbrowser</string>
+        <string>mqqopensdkapiV2</string>
+        <string>mqzone</string>
+        <string>wtloginmqq2</string>
+        <string>mqqopensdkapiV3</string>
+        <string>mqqwpa</string>
+        <string>wtloginmqq2</string>
+    </array>
+    <key>NSCameraUsageDescription</key>
+    <string>相机访问权限描述</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>相册访问权限描述</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>wechat</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>wx+"微信app id"</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>weibo</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>wb+"微博app id"</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>qq</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>tencent+"QQ app id"</string>
+            </array>
+        </dict>
+    </array>
 </dict>
 </plist>
