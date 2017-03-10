@@ -29,7 +29,7 @@ target 'Leme' do
   target 'LemeTests' do
     inherit! :search_paths
     #Pods for testing
-    pod 'RxNimble'
+    #pod 'RxNimble'
     pod 'Alamofire',  '~> 4.3'
     pod 'RxSwift',    '~> 3.0'
     pod 'RxCocoa',    '~> 3.0'

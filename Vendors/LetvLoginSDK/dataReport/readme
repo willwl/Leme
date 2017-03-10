@@ -1,0 +1,18 @@
+
+示例工程：trackertest_ios
+
+
+头文件和静态库：文件夹0.2.3
+1、libprotobuf.a 为protobuf3.0.0-beta1 版本的静态库；
+2、libagnestracker.a 为上报agnesSdk静态库；
+3、agnes_inc 文件夹为agnesSDK头文件；
+4、google 文件夹为protobuf头文件；
+5、swift_enums 为支持swift的AGS_Enums枚举文件。
+
+
+集成方法：
+1、业务方没有pb的，需引入libprotobuf.a和libagnestracker.a两个库。
+2、业务方有pb业务，可以直接用libagnestracker.a＋libprotobuf.a，也可以只使用libagnestracker.a +pb源代码的方式。
+
+
+具体使用方法请参照使用手册: http://lebi.letv.cn 点右上“登录”，输入letv邮箱密码登录，平台服务－>技术资料（agnes SDK）->Agnes_manual:通用手机SDK使用方法（iOS平台）

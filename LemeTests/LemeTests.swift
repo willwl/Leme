@@ -12,8 +12,6 @@ import RxCocoa
 import Moya
 import Moya_SwiftyJSONMapper
 import SwiftyJSON
-import Nimble
-import RxNimble
 
 @testable import Leme
 
@@ -33,6 +31,7 @@ class LemeTests: XCTestCase {
         let e = expectation(description: "GetSomeData Error")
         self.api
             .request(LemeAPI.GetSomeData)
+            //.cacheRequestIfOutOnline()
             .map(to: SomeData.self)
             .subscribe(onNext: { (someData) -> Void in
                 XCTAssertEqual(someData.login, "http://api.spottly.com/login")
@@ -45,10 +44,6 @@ class LemeTests: XCTestCase {
         waitForExpectations(timeout: 10) { (error) in
             print(error)
         }
-    }
-    func testGetSomeData2() {
-        let subject = Variable("Hi")
-        expect(subject) == "Hi"
     }
 
     func testPerformanceExample() {

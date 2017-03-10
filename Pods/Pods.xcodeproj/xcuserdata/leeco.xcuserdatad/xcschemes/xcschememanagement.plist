@@ -24,11 +24,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Nimble.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Leme.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -49,22 +44,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>RxBlocking.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>RxCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>RxDataSources.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>RxNimble.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -82,22 +67,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0E0546BD26D9216AD157D6A23B81B612</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>1321E318D10CFDC9F5B93A7952492CCD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>25B53F616B1C9166C78C05F58C8A108C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>2664771D474BAE3A75C42A9E3D248154</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -108,6 +78,11 @@
 			<true/>
 		</dict>
 		<key>2CEC9BFE09F5CDAD5B59247821922BE7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54FC68F54A9A6C78382E1242A8BB9A9D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -138,11 +113,6 @@
 			<true/>
 		</dict>
 		<key>C419A9BCC9AACDC44A26B80764B6B554</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E64E314F67C03EF173DF3FBCE68F6CC6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

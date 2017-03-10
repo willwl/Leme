@@ -19,14 +19,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        LemallHelper
-            .lemallSDK()
-            .initLemallAppID("0c7156617fcd3fcde70f01dddf80f231", leEco: true)
-
+        
+        self.configureThirdSDKs(application: application ,launchOptions:launchOptions)
+        
         return true
     }
 
+    func configureThirdSDKs(application: UIApplication, launchOptions: [UIApplicationLaunchOptionsKey: Any]?){
+        LemallHelper
+            .lemallSDK()
+            .initLemallAppID("0c7156617fcd3fcde70f01dddf80f231", leEco: true)
+        
+        let conf = LTLSUserManagerConfiguration()
+        conf.logType = [LTLSLogType.error,LTLSLogType.info,LTLSLogType.warning]
+        conf.toastType = [LTLSToastType.error,LTLSToastType.info,LTLSToastType.warning]
+        conf.plagform = "test_p";
+        conf.language = "zh-cn"
+        conf.region = "CN"
+        let thirdConf = LTLSUserManagerThirdPartyConfiguration()
+        thirdConf.qqAppKey = "1105038523"
+        thirdConf.wechatAppKey = "wxe84a6523779f18de";
+        thirdConf.wechatAppSecret = "1a944b307ecca5d6d4dffaf901948be9";
+        conf.thirdPartyConfig = thirdConf
+        LTLSUserManager.register(with: conf, application: application, launchOption: (launchOptions ?? [:]))
 
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
